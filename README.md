@@ -8,9 +8,9 @@ The GP bar looks like this:
 
 ![GP Bar image](https://github.com/pokeymud/adventureTime/blob/main/adventuretime.PNG?raw=true)
 
-The code is a fairly straight-forward mashup of [quow's](https://quow.co.uk) and [one](https://www.mushclient.com/forum/?id=9270) found on the [MUSHClient](https://www.mushclient.com/) forums by the author of MUSHclient, with the additional logic to derive non-guild gp added by me.
+The code is a fairly straight-forward mashup of [quow's](https://quow.co.uk) and [one](https://www.mushclient.com/forum/?id=9270) found on the MUSHClient forums by the author of MUSHclient, with the additional logic to derive non-guild gp added by me.
 
-Being a descendant of quow's gp bar, it shares the same quirks.
+Since it uses the same mechancics as quowbar's hp/gp bar, it shares the same quirks.
 
 ## GETTING Started
 
