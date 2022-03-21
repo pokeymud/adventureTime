@@ -8,7 +8,7 @@ The GP bar looks like this:
 
 ![GP Bar image](https://github.com/pokeymud/adventureTime/blob/main/adventuretime.PNG?raw=true)
 
-The code is a fairly straight-forward mashup of [quow's](quow.co.uk) and one found on the [MUSHClient](https://www.mushclient.com/) forums by the author of MUSHclient, with the additional logic to derive non-guild gp added by me.
+The code is a fairly straight-forward mashup of [quow's](https://quow.co.uk) and one found on the [MUSHClient](https://www.mushclient.com/) forums by the author of MUSHclient, with the additional logic to derive non-guild gp added by me.
 
 Being a descendant of quow's gp bar, it shares the same quirks.
 
@@ -41,6 +41,6 @@ adventuretime regen N
 [Pokey](https://dwwiki.mooo.com/wiki/User:Pokey)
 
 ## Acknowledgments
-* [Quow bar](quow.co.uk)
+* [Quow bar](https://quow.co.uk)
 * [Discworld MUD](http://discworld.starturtle.net/lpc/) 
 * [MUSHClient](https://www.mushclient.com/)
