@@ -168,8 +168,10 @@ end
 function UpdateDerivedGP()
   local total, total_max = tonumber (stats["Total"]["current"]),
     tonumber (stats["Total"]["max"])
-  for _, stat in pairs(stat_names) do
-    stats[stat]["current"] = stats[stat]["max"] + total - total_max
+  if ( total_max > 50 ) then -- GP less than 50 is invalid data
+    for _, stat in pairs(stat_names) do
+      stats[stat]["current"] = stats[stat]["max"] + total - total_max
+    end
   end
 end
 
