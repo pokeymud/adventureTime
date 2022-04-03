@@ -99,7 +99,7 @@ BORDER_COLOUR = ColourNameToRGB "#553333"
 
 stat_names = {"Total", "Adventuring", "Covert", "Crafts", "Faith", "Fighting", "Magic", "People"}
 
-stat_colours = { 
+stat_colours = {
   ["Total"] = "orange",
   ["Adventuring"] = "forestgreen",
   ["Covert"] = "indigo",
@@ -329,6 +329,8 @@ function OnPluginInstall ()
       tonumber (GetVariable ("windowmode")) or 8, -- bottom right
       tonumber (GetVariable ("windowflags")) or 0
     
+  gp_regen = tonumber(GetVariable ("gp_regen")) or 3
+
   -- make miniwindow so I can grab the font info
   check (WindowCreate (win, 
                  x, y, WINDOW_WIDTH, WINDOW_HEIGHT,  
@@ -377,6 +379,7 @@ function OnPluginSaveState ()
   SetVariable ("windowy", tostring (WindowInfo (win, 11)))
   SetVariable ("windowmode", tostring (WindowInfo (win, 7)))
   SetVariable ("windowflags", tostring (WindowInfo (win, 8)))
+  SetVariable ("gp_regen", tostring (gp_regen))
 end -- OnPluginSaveState
 
 
